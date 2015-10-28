@@ -61,6 +61,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <QtCore/QBuffer>
 #include <QtCore/QThread>
 #include <QtCore/QLineF>
+#include <QtCore/QElapsedTimer>
 
 #include <QtGui/QFileDialog>
 #include <QtGui/QMessageBox>
@@ -111,6 +112,7 @@ MainWindow::MainWindow(FindObject * findObject, Camera * camera, QWidget * paren
 
 	QByteArray geometry;
 	QByteArray state;
+
 	Settings::loadWindowSettings(geometry, state);
 	this->restoreGeometry(geometry);
 	this->restoreState(state);
@@ -261,7 +263,6 @@ MainWindow::MainWindow(FindObject * findObject, Camera * camera, QWidget * paren
 		ui_->label_vocabularySize->setNum(findObject_->vocabulary()->size());
 		ui_->actionSave_session->setEnabled(true);
 	}
-
 
 	if(Settings::getGeneral_autoStartCamera())
 	{
@@ -1122,12 +1123,14 @@ void MainWindow::updateVocabulary(const QList<int> & ids)
 	ui_->dockWidget_objects->update();
 }
 
+	QElapsedTimer timer;
 void MainWindow::startProcessing()
 {
 	UINFO("Starting camera...");
 	bool updateStatusMessage = this->statusBar()->currentMessage().isEmpty();
 	if(updateStatusMessage)
 	{
+		timer.start();
 		this->statusBar()->showMessage(tr("Starting camera..."));
 	}
 	if(camera_->start())
@@ -1254,6 +1257,7 @@ void MainWindow::rectHovered(int objId)
 
 void MainWindow::update(const cv::Mat & image)
 {
+
 	if(image.empty())
 	{
 		UWARN("The image received is empty...");
@@ -1359,11 +1363,6 @@ void MainWindow::update(const cv::Mat & image)
 			}
 		}
 
-		if(camera_->isRunning() && Settings::getGeneral_autoPauseOnDetection() && info.objDetected_.size())
-		{
-			this->pauseProcessing();
-		}
-
 		// Add homography rectangles when homographies are computed
 		int maxHomographyScoreId = -1;
 		int maxHomographyScore = 0;
@@ -1463,31 +1462,41 @@ void MainWindow::update(const cv::Mat & image)
 			}
 		}
 
-		// Emit homographies
-		if(info.objDetected_.size() > 1)
-		{
-			UINFO("(%s) %d objects detected!",
-					QTime::currentTime().toString("HH:mm:ss.zzz").toStdString().c_str(),
-					(int)info.objDetected_.size());
-		}
-		else if(info.objDetected_.size() == 1)
-		{
-			UINFO("(%s) Object %d detected!",
-					QTime::currentTime().toString("HH:mm:ss.zzz").toStdString().c_str(),
-					(int)info.objDetected_.begin().key());
-		}
-		else if(Settings::getGeneral_sendNoObjDetectedEvents())
-		{
-			UINFO("(%s) No objects detected.",
-					QTime::currentTime().toString("HH:mm:ss.zzz").toStdString().c_str());
-		}
-
-		if(info.objDetected_.size() > 0 || Settings::getGeneral_sendNoObjDetectedEvents())
-		{
-			Q_EMIT objectsFound(info);
-		}
-		ui_->label_objectsDetected->setNum(info.objDetected_.size());
-	}
+        // Emit homographies
+        if(info.objDetected_.size() > 1)
+        {
+            UINFO("(%s) %d objects detected! In (%d)MS!",
+                  QTime::currentTime().toString("HH:mm:ss.zzz").toStdString().c_str(),
+                  (int)info.objDetected_.size(), timer.elapsed());
+        }
+        else if(info.objDetected_.size() == 1)
+        {
+            UINFO("(%s) Object %d detected! In (%d)MS!",
+                  QTime::currentTime().toString("HH:mm:ss.zzz").toStdString().c_str(),
+                  (int)info.objDetected_.begin().key(), timer.elapsed());
+        }
+        if(info.objDetected_.size() == 3)
+        {
+            UINFO("(%s) Object %d detected! In (%d)MS!",
+                  QTime::currentTime().toString("HH:mm:ss.zzz").toStdString().c_str(),
+				  (int)info.objDetected_.size(), timer.elapsed());
+            
+            if(camera_->isRunning() && Settings::getGeneral_autoPauseOnDetection() && info.objDetected_.size())
+            {
+                this->pauseProcessing();
+            }
+        }
+        else if(Settings::getGeneral_sendNoObjDetectedEvents())
+        {
+            UINFO("(%s) No objects detected.",
+                  QTime::currentTime().toString("HH:mm:ss.zzz").toStdString().c_str());
+        }
+        if(info.objDetected_.size() > 0 || Settings::getGeneral_sendNoObjDetectedEvents())
+        {
+            Q_EMIT objectsFound(info);
+        }
+        ui_->label_objectsDetected->setNum(info.objDetected_.size());
+    }
 	else
 	{
 		guiRefreshTime.start();

@@ -1,0 +1,788 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: 
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: 
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: 
+Id flags: -Aa
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Determining the version of compiler failed with the following output:
+CreateProcessError: Het systeem kan het opgegeven bestand niet vinden.
+
+for command: cl /nologo -EP "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestNMakeCLVersion.c"
+
+Determining if this is a free VC compiler failed with the following output:
+CreateProcessError: Het systeem kan het opgegeven bestand niet vinden.
+
+for command: cl /nologo /MD /EHsc "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestForFreeVC.cxx" 
+in dir: C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp2
+
+Determining if the C compiler works failed with the following output:
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -Aa
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Determining the version of compiler failed with the following output:
+CreateProcessError: Het systeem kan het opgegeven bestand niet vinden.
+
+for command: cl /nologo -EP "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestNMakeCLVersion.c"
+
+Determining if this is a free VC compiler failed with the following output:
+CreateProcessError: Het systeem kan het opgegeven bestand niet vinden.
+
+for command: cl /nologo /MD /EHsc "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestForFreeVC.cxx" 
+in dir: C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp2
+
+Determining if the C compiler works failed with the following output:
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -Aa
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Determining the version of compiler failed with the following output:
+CreateProcessError: Het systeem kan het opgegeven bestand niet vinden.
+
+for command: cl /nologo -EP "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestNMakeCLVersion.c"
+
+Determining if this is a free VC compiler failed with the following output:
+CreateProcessError: Het systeem kan het opgegeven bestand niet vinden.
+
+for command: cl /nologo /MD /EHsc "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestForFreeVC.cxx" 
+in dir: C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp2
+
+Determining if the C compiler works failed with the following output:
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -Aa
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -Aa
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -Aa
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -Aa
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Determining the version of compiler failed with the following output:
+CreateProcessError: Het systeem kan het opgegeven bestand niet vinden.
+
+for command: cl /nologo -EP "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestNMakeCLVersion.c"
+
+Determining if this is a free VC compiler failed with the following output:
+CreateProcessError: Het systeem kan het opgegeven bestand niet vinden.
+
+for command: cl /nologo /MD /EHsc "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestForFreeVC.cxx" 
+in dir: C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp2
+
+Determining if the C compiler works failed with the following output:
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -Aa
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Determining the version of compiler failed with the following output:
+CreateProcessError: Het systeem kan het opgegeven bestand niet vinden.
+
+for command: cl /nologo -EP "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestNMakeCLVersion.c"
+
+Determining if this is a free VC compiler failed with the following output:
+CreateProcessError: Het systeem kan het opgegeven bestand niet vinden.
+
+for command: cl /nologo /MD /EHsc "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestForFreeVC.cxx" 
+in dir: C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp2
+
+Determining if the C compiler works failed with the following output:
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -Aa
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Determining the version of compiler failed with the following output:
+CreateProcessError: Het systeem kan het opgegeven bestand niet vinden.
+
+for command: cl /nologo -EP "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestNMakeCLVersion.c"
+
+Determining if this is a free VC compiler failed with the following output:
+CreateProcessError: Het systeem kan het opgegeven bestand niet vinden.
+
+for command: cl /nologo /MD /EHsc "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestForFreeVC.cxx" 
+in dir: C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp2
+
+Determining if the C compiler works failed with the following output:
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -Aa
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Determining the version of compiler failed with the following output:
+CreateProcessError: Het systeem kan het opgegeven bestand niet vinden.
+
+for command: cl /nologo -EP "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestNMakeCLVersion.c"
+
+Determining if this is a free VC compiler failed with the following output:
+CreateProcessError: Het systeem kan het opgegeven bestand niet vinden.
+
+for command: cl /nologo /MD /EHsc "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestForFreeVC.cxx" 
+in dir: C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp2
+
+Determining if the C compiler works failed with the following output:
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -Aa
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Determining the version of compiler failed with the following output:
+CreateProcessError: Het systeem kan het opgegeven bestand niet vinden.
+
+for command: cl /nologo -EP "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestNMakeCLVersion.c"
+
+Determining if this is a free VC compiler failed with the following output:
+CreateProcessError: Het systeem kan het opgegeven bestand niet vinden.
+
+for command: cl /nologo /MD /EHsc "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestForFreeVC.cxx" 
+in dir: C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp2
+
+Determining if the C compiler works failed with the following output:
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: -Aa
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: 
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: -c
+
+The output was:
+Het systeem kan het opgegeven bestand niet vinden
+
+
+Determining the version of compiler failed with the following output:
+CreateProcessError: Het systeem kan het opgegeven bestand niet vinden.
+
+for command: cl /nologo -EP "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestNMakeCLVersion.c"
+
+Determining if this is a free VC compiler failed with the following output:
+CreateProcessError: Het systeem kan het opgegeven bestand niet vinden.
+
+for command: cl /nologo /MD /EHsc "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestForFreeVC.cxx" 
+in dir: C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp2
+
+Determining if the C compiler works failed with the following output:
+
+
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+c:/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.obj
+c:\mingw\bin\g++.exe     -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.cxx.obj -c C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx:2:28: fout: QtCore/qglobal.h: No such file or directory
+C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx: In function ‘int main()’:
+C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx:8: fout: ‘Q_WS_X11’ was not declared in this scope
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_X11
+  cmakeRequireSymbol(0,&Q_WS_X11);
+#endif
+  return 0;
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+c:/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.obj
+c:\mingw\bin\g++.exe     -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.cxx.obj -c C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx:2:28: fout: QtCore/qglobal.h: No such file or directory
+C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx: In function ‘int main()’:
+C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx:8: fout: ‘Q_WS_WIN’ was not declared in this scope
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_WIN
+  cmakeRequireSymbol(0,&Q_WS_WIN);
+#endif
+  return 0;
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+c:/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.obj
+c:\mingw\bin\g++.exe     -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.cxx.obj -c C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx:2:28: fout: QtCore/qglobal.h: No such file or directory
+C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx: In function ‘int main()’:
+C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx:8: fout: ‘Q_WS_QWS’ was not declared in this scope
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_QWS
+  cmakeRequireSymbol(0,&Q_WS_QWS);
+#endif
+  return 0;
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+c:/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.obj
+c:\mingw\bin\g++.exe     -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.cxx.obj -c C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx:2:28: fout: QtCore/qglobal.h: No such file or directory
+C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx: In function ‘int main()’:
+C:\Users\Kjell\Documents\Github\find-object\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx:8: fout: ‘Q_WS_MAC’ was not declared in this scope
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File C:/Users/Kjell/Documents/Github/find-object/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_MAC
+  cmakeRequireSymbol(0,&Q_WS_MAC);
+#endif
+  return 0;
+}
+
