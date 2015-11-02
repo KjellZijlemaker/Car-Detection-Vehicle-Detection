@@ -1124,6 +1124,7 @@ void MainWindow::updateVocabulary(const QList<int> & ids)
 }
 
 	QElapsedTimer timer;
+	QElapsedTimer timerForTrafficCongestion;
 void MainWindow::startProcessing()
 {
 	UINFO("Starting camera...");
@@ -1426,6 +1427,7 @@ void MainWindow::update(const cv::Mat & image)
 		//update likelihood plot
 		likelihoodCurve_->setData(scores, QMap<int, int>());
 		QMap<int, int> inlierScores;
+		bool elapsedTimerHasStarted;
 		for(QMap<int, int>::iterator iter=scores.begin(); iter!=scores.end(); ++iter)
 		{
 			QList<QMultiMap<int, int> > values = info.objDetectedInliers_.values(iter.key());
@@ -1471,23 +1473,46 @@ void MainWindow::update(const cv::Mat & image)
         }
         else if(info.objDetected_.size() == 1)
         {
+			if(timerForTrafficCongestion.isValid()){
+				timerForTrafficCongestion.invalidate();
+			}
+
             UINFO("(%s) Object %d detected! In (%d)MS!",
                   QTime::currentTime().toString("HH:mm:ss.zzz").toStdString().c_str(),
                   (int)info.objDetected_.begin().key(), timer.elapsed());
         }
+		if(info.objDetected_.size() < 3){
+			if(timerForTrafficCongestion.isValid()){
+				timerForTrafficCongestion.invalidate();
+			}
+		}
         if(info.objDetected_.size() == 3)
         {
-            UINFO("(%s) Object %d detected! In (%d)MS!",
+			if(!timerForTrafficCongestion.isValid()){
+				timerForTrafficCongestion.start();
+			}
+
+            UINFO("(%s) %d objects detected! In (%d)MS!",
                   QTime::currentTime().toString("HH:mm:ss.zzz").toStdString().c_str(),
-				  (int)info.objDetected_.size(), timer.elapsed());
-            
+                  (int)info.objDetected_.size(), timer.elapsed());
+           
             if(camera_->isRunning() && Settings::getGeneral_autoPauseOnDetection() && info.objDetected_.size())
             {
-                this->pauseProcessing();
+				if(timerForTrafficCongestion.elapsed() >= 5000){
+					UINFO("Traffic congestion detected in (%d)MS!",
+						  timer.elapsed());
+					this->pauseProcessing();
+					timer.restart();
+				}
             }
         }
+
         else if(Settings::getGeneral_sendNoObjDetectedEvents())
         {
+			if(timerForTrafficCongestion.isValid()){
+				timerForTrafficCongestion.invalidate();
+			}
+
             UINFO("(%s) No objects detected.",
                   QTime::currentTime().toString("HH:mm:ss.zzz").toStdString().c_str());
         }
