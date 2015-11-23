@@ -1486,7 +1486,7 @@ void MainWindow::update(const cv::Mat & image)
 				timerForTrafficCongestion.invalidate();
 			}
 		}
-        if(info.objDetected_.size() == 3)
+        if(info.objDetected_.size() >= 3)
         {
 			if(!timerForTrafficCongestion.isValid()){
 				timerForTrafficCongestion.start();
@@ -1498,6 +1498,8 @@ void MainWindow::update(const cv::Mat & image)
            
             if(camera_->isRunning() && Settings::getGeneral_autoPauseOnDetection() && info.objDetected_.size())
             {
+				UINFO("Traffic congestion timer started in (%d)MS!",
+						  timer.elapsed());
 				if(timerForTrafficCongestion.elapsed() >= 5000){
 					UINFO("Traffic congestion detected in (%d)MS!",
 						  timer.elapsed());
