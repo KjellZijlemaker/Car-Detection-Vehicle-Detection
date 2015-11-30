@@ -646,7 +646,7 @@ protected:
 	{
 		QTime time;
 		time.start();
-		UINFO("Extracting descriptors from object %d...", objectId_);
+		//UINFO("Extracting descriptors from object %d...", objectId_);
 
 		QTime timeStep;
 		timeStep.start();
@@ -741,7 +741,7 @@ protected:
 			}
 		}
 
-		UINFO("%d descriptors extracted from object %d (in %d ms)", descriptors_.rows, objectId_, time.elapsed());
+		//UINFO("%d descriptors extracted from object %d (in %d ms)", descriptors_.rows, objectId_, time.elapsed());
 	}
 private:
 	Feature2D * detector_;

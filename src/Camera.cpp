@@ -182,6 +182,7 @@ void Camera::takeImage()
 
 bool Camera::start()
 {
+	//freopen("out.txt","w",stdout);
 	if(!capture_.isOpened() && images_.empty() && cameraTcpServer_ == 0)
 	{
 		if(Settings::getCamera_6useTcpCamera())

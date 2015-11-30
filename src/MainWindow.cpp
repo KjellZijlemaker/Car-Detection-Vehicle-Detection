@@ -1258,7 +1258,6 @@ void MainWindow::rectHovered(int objId)
 
 void MainWindow::update(const cv::Mat & image)
 {
-
 	if(image.empty())
 	{
 		UWARN("The image received is empty...");
@@ -1467,17 +1466,13 @@ void MainWindow::update(const cv::Mat & image)
         // Emit homographies
         if(info.objDetected_.size() > 1)
         {
-            UINFO("(%s) %d objects detected! In (%d)MS!",
+            UINFO("(%s) %d cars detected! In (%d)MS!",
                   QTime::currentTime().toString("HH:mm:ss.zzz").toStdString().c_str(),
                   (int)info.objDetected_.size(), timer.elapsed());
         }
-        else if(info.objDetected_.size() == 1)
+		else if(info.objDetected_.size() == 1)
         {
-			if(timerForTrafficCongestion.isValid()){
-				timerForTrafficCongestion.invalidate();
-			}
-
-            UINFO("(%s) Object %d detected! In (%d)MS!",
+            UINFO("(%s) car %d detected! In (%d)MS!",
                   QTime::currentTime().toString("HH:mm:ss.zzz").toStdString().c_str(),
                   (int)info.objDetected_.begin().key(), timer.elapsed());
         }
@@ -1492,7 +1487,7 @@ void MainWindow::update(const cv::Mat & image)
 				timerForTrafficCongestion.start();
 			}
 
-            UINFO("(%s) %d objects detected! In (%d)MS!",
+            UINFO("(%s) %d cars detected! In (%d)MS!",
                   QTime::currentTime().toString("HH:mm:ss.zzz").toStdString().c_str(),
                   (int)info.objDetected_.size(), timer.elapsed());
            
@@ -1500,11 +1495,13 @@ void MainWindow::update(const cv::Mat & image)
             {
 				UINFO("Traffic congestion timer started in (%d)MS!",
 						  timer.elapsed());
-				if(timerForTrafficCongestion.elapsed() >= 5000){
+				if(timerForTrafficCongestion.elapsed() >= 3500){
 					UINFO("Traffic congestion detected in (%d)MS!",
 						  timer.elapsed());
 					this->pauseProcessing();
 					timer.restart();
+					UINFO("Traffic congestion detected in (%d)MS!",
+						  timer.elapsed());
 				}
             }
         }
@@ -1515,7 +1512,7 @@ void MainWindow::update(const cv::Mat & image)
 				timerForTrafficCongestion.invalidate();
 			}
 
-            UINFO("(%s) No objects detected.",
+            UINFO("(%s) No cars detected.",
                   QTime::currentTime().toString("HH:mm:ss.zzz").toStdString().c_str());
         }
         if(info.objDetected_.size() > 0 || Settings::getGeneral_sendNoObjDetectedEvents())
