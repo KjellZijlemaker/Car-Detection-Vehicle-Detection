@@ -1495,7 +1495,7 @@ void MainWindow::update(const cv::Mat & image)
             {
 				UINFO("Traffic congestion timer started in (%d)MS!",
 						  timer.elapsed());
-				if(timerForTrafficCongestion.elapsed() >= 3500){
+				if(timerForTrafficCongestion.elapsed() >= 2500){
 					UINFO("Traffic congestion detected in (%d)MS!",
 						  timer.elapsed());
 					this->pauseProcessing();
